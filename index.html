@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Benchmark Precios Mexico</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6f2;--sur:#fff;--bor:#e4e2da;--tx:#18170f;--tx2:#6b6960;--tx3:#b0ada4;--gr:#1e5c3a;--gr2:#dcf0e4;--re:#8b1a1a;--re2:#fce8e8;--nu:#efefeb;--mo:'IBM Plex Mono',monospace;--sa:'IBM Plex Sans',sans-serif;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--sa);background:var(--bg);color:var(--tx);font-size:14px;}
+.top{background:var(--tx);color:#fff;padding:0 32px;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.top h1{font-size:13px;font-weight:500;}
+.top span{font-family:var(--mo);font-size:11px;color:rgba(255,255,255,.45);}
+.hero{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:1px;background:var(--bor);border-bottom:1px solid var(--bor);}
+.hero>div{background:var(--sur);padding:24px 28px;}
+.hl{font-family:var(--mo);font-size:10px;color:var(--tx3);letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px;}
+.hn{font-size:48px;font-weight:300;letter-spacing:-.04em;line-height:1;}
+.hn sup{font-size:20px;vertical-align:super;}
+.hs{font-size:11px;color:var(--tx2);margin-top:8px;}
+.sv{font-size:30px;font-weight:300;letter-spacing:-.03em;line-height:1;margin-bottom:6px;}
+.sv.g{color:var(--gr);}.sv.r{color:var(--re);}
+.sd{font-size:11px;color:var(--tx3);}
+.tw{overflow-x:auto;padding:0 32px 48px;}
+table{width:100%;border-collapse:collapse;margin-top:24px;font-size:13px;}
+thead th{font-family:var(--mo);font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.05em;padding:0 10px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--bor);}
+thead th.l{text-align:left;}thead th.c1{color:#2a5fa8;}thead th.c2{color:#a8592a;}
+tbody tr{border-bottom:1px solid var(--bor);}
+tbody tr:hover{background:#fafaf7;}
+tr.sec td{font-family:var(--mo);font-size:10px;color:var(--tx3);text-transform:uppercase;letter-spacing:.08em;padding:18px 10px 6px;background:var(--bg);border-bottom:1px solid var(--bor);}
+td{padding:10px;vertical-align:middle;}
+td.pn{font-weight:500;max-width:220px;}
+td.mpn{font-family:var(--mo);font-size:11px;color:var(--tx3);white-space:nowrap;}
+td.pr{text-align:right;font-family:var(--mo);}
+td.pr.dim{color:var(--tx3);}
+td.bc{text-align:right;font-family:var(--mo);}
+td.bc a{color:var(--tx);text-decoration:none;border-bottom:1px dotted var(--tx3);}
+td.bc a:hover{color:var(--gr);border-color:var(--gr);}
+td.df{text-align:right;}
+.pill{display:inline-block;font-family:var(--mo);font-size:11px;font-weight:500;padding:3px 8px;border-radius:4px;}
+.pill.up{background:var(--gr2);color:var(--gr);}
+.pill.down{background:var(--re2);color:var(--re);}
+.pill.flat{background:var(--nu);color:var(--tx2);}
+.pill.empty{background:var(--nu);color:var(--tx3);}
+.fn{margin-top:20px;padding:12px 16px;background:var(--nu);border-radius:6px;font-family:var(--mo);font-size:11px;color:var(--tx3);line-height:1.9;}
+@media(max-width:900px){.hero{grid-template-columns:1fr 1fr;}.top,.tw{padding-left:16px;padding-right:16px;}}
+</style></head><body>
+<div class="top"><h1>Benchmark de Precios - Mexico</h1><span>Actualizado: 06/05/2026 21:21 | TC: $17.26 MXN/USD</span></div>
+<div class="hero">
+  <div><div class="hl">Diferencia promedio - Mexico total</div><div class="hn" style="color:#1e5c3a">+88.9<sup>%</sup></div><div class="hs">precio Platinum vs. mejor precio retail disponible</div></div>
+  <div><div class="hl">Por encima del retail</div><div class="sv g">27</div><div class="sd">nuestro precio es menor</div></div>
+  <div><div class="hl">Por debajo del retail</div><div class="sv r">2</div><div class="sd">nuestro precio es mayor</div></div>
+  <div><div class="hl">Productos con datos</div><div class="sv">30</div><div class="sd">de 30 productos</div></div>
+</div>
+<div class="tw"><table>
+<thead><tr>
+  <th class="l">Producto</th><th class="l">MPN</th>
+  <th>Platinum USD</th><th>Basico USD</th><th>Partners USD</th>
+  <th class="c1">Benchmark 1 USD</th><th class="c1">Diferencia</th>
+  <th class="c2">Benchmark 2 USD</th><th class="c2">Diferencia</th>
+</tr></thead>
+<tbody><tr class="sec"><td colspan="9">MacBook Air 13"</td></tr>
+<tr>
+          <td class="pn">MBA 13" M5 16GB 512GB</td>
+          <td class="mpn">MDH74E/A</td>
+          <td class="pr">$2,540</td>
+          <td class="pr dim">$2,616</td>
+          <td class="pr dim">$2,680</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDH74E/A%20MacBook%20Air%2013%20M5%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill flat">= +2.0%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBA 13" M5 16GB 1TB</td>
+          <td class="mpn">MDH84E/A</td>
+          <td class="pr">$2,840</td>
+          <td class="pr dim">$2,925</td>
+          <td class="pr dim">$3,000</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDH84E/A%20MacBook%20Air%2013%20M5%2016GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +14.0%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBA 13" M5 24GB 1TB</td>
+          <td class="mpn">MDH94E/A</td>
+          <td class="pr">$3,160</td>
+          <td class="pr dim">$3,255</td>
+          <td class="pr dim">$3,340</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDH94E/A%20MacBook%20Air%2013%20M5%2024GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +26.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">MacBook Air 15"</td></tr>
+<tr>
+          <td class="pn">MBA 15" M5 16GB 512GB</td>
+          <td class="mpn">MDV94E/A</td>
+          <td class="pr">$3,160</td>
+          <td class="pr dim">$3,255</td>
+          <td class="pr dim">$3,340</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDV94E/A%20MacBook%20Air%2015%20M5%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +26.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBA 15" M5 16GB 1TB</td>
+          <td class="mpn">MDVA4E/A</td>
+          <td class="pr">$3,520</td>
+          <td class="pr dim">$3,626</td>
+          <td class="pr dim">$3,720</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDVA4E/A%20MacBook%20Air%2015%20M5%2016GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +41.3%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBA 15" M5 24GB 1TB</td>
+          <td class="mpn">MDVC4E/A</td>
+          <td class="pr">$3,820</td>
+          <td class="pr dim">$3,935</td>
+          <td class="pr dim">$4,040</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDVC4E/A%20MacBook%20Air%2015%20M5%2024GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +53.4%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">MacBook Pro 14"</td></tr>
+<tr>
+          <td class="pn">MBP 14" M5 16GB 512GB</td>
+          <td class="mpn">MDE04E/A</td>
+          <td class="pr">$3,700</td>
+          <td class="pr dim">$3,811</td>
+          <td class="pr dim">$3,920</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDE04E/A%20MacBook%20Pro%2014%20M5%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +48.5%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 14" M5 16GB 1TB</td>
+          <td class="mpn">MDE14E/A</td>
+          <td class="pr">$4,100</td>
+          <td class="pr dim">$4,223</td>
+          <td class="pr dim">$4,340</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MDE14E/A%20MacBook%20Pro%2014%20M5%2016GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +64.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 14" M5 Pro 24GB 1TB</td>
+          <td class="mpn">MGDN4E/A</td>
+          <td class="pr">$4,980</td>
+          <td class="pr dim">$5,129</td>
+          <td class="pr dim">$5,260</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MGDN4E/A%20MacBook%20Pro%2014%20M5%20Pro%2024GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +99.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 14" M5 Pro 24GB 2TB</td>
+          <td class="mpn">MJLV4E/A</td>
+          <td class="pr">$5,420</td>
+          <td class="pr dim">$5,583</td>
+          <td class="pr dim">$5,740</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MJLV4E/A%20MacBook%20Pro%2014%20M5%20Pro%2024GB%202TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +117.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 14" M5 Max 36GB 2TB</td>
+          <td class="mpn">MGDU4E/A</td>
+          <td class="pr">$6,500</td>
+          <td class="pr dim">$6,695</td>
+          <td class="pr dim">$6,880</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MGDU4E/A%20MacBook%20Pro%2014%20M5%20Max%2036GB%202TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +160.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">MacBook Pro 16"</td></tr>
+<tr>
+          <td class="pn">MBP 16" M5 Pro 24GB 1TB</td>
+          <td class="mpn">MGE44E/A</td>
+          <td class="pr">$5,420</td>
+          <td class="pr dim">$5,583</td>
+          <td class="pr dim">$5,740</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MGE44E/A%20MacBook%20Pro%2016%20M5%20Pro%2024GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +117.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 16" M5 Pro 48GB 1TB</td>
+          <td class="mpn">MGE64E/A</td>
+          <td class="pr">$4,980</td>
+          <td class="pr dim">$5,129</td>
+          <td class="pr dim">$5,260</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MGE64E/A%20MacBook%20Pro%2016%20M5%20Pro%2048GB%201TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +99.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">MBP 16" M5 Max 48GB 2TB</td>
+          <td class="mpn">MHFG4E/A</td>
+          <td class="pr">$5,860</td>
+          <td class="pr dim">$6,036</td>
+          <td class="pr dim">$6,200</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MHFG4E/A%20MacBook%20Pro%2016%20M5%20Max%2048GB%202TB&i=electronics" target="_blank" title="Amazon MX">$2,491</a></td><td class="df"><span class="pill up">v +135.2%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">Lenovo ThinkPad</td></tr>
+<tr>
+          <td class="pn">ThinkPad T14 G6 U5 16GB 512GB</td>
+          <td class="mpn">21QD001BLM</td>
+          <td class="pr">$1,400</td>
+          <td class="pr dim">$1,442</td>
+          <td class="pr dim">$1,420</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=21QD001BLM%20Lenovo%20ThinkPad%20T14%20G6%20U5%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$1,338</a></td><td class="df"><span class="pill up">v +4.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">ThinkPad T14 G6 U7 16GB 512GB</td>
+          <td class="mpn">21QD001CLM</td>
+          <td class="pr">$1,620</td>
+          <td class="pr dim">$1,669</td>
+          <td class="pr dim">$1,660</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=21QD001CLM%20Lenovo%20ThinkPad%20T14%20G6%20U7%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$417</a></td><td class="df"><span class="pill up">v +288.5%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">ThinkPad E14 G7 U5 16GB 512GB</td>
+          <td class="mpn">21SY0013LM</td>
+          <td class="pr">$1,400</td>
+          <td class="pr dim">$1,442</td>
+          <td class="pr dim">$1,440</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=21SY0013LM%20Lenovo%20ThinkPad%20E14%20G7%20U5%2016GB%20512GB&i=electronics" target="_blank" title="Amazon MX">$400</a></td><td class="df"><span class="pill up">v +250.0%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">ThinkPad E14 G7 U7 16GB 1TB</td>
+          <td class="mpn">21SY0016LM</td>
+          <td class="pr">$1,620</td>
+          <td class="pr dim">$1,669</td>
+          <td class="pr dim">$1,660</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=21SY0016LM%20Lenovo%20ThinkPad%20E14%20G7%20U7%2016GB%201TB&i=electronics" target="_blank" title="Amazon MX">$400</a></td><td class="df"><span class="pill up">v +305.0%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">Dell Pro</td></tr>
+<tr>
+          <td class="pn">Dell Pro 14" U5 16GB 512GB</td>
+          <td class="mpn">7XNFP</td>
+          <td class="pr">$1,400</td>
+          <td class="pr dim">$1,442</td>
+          <td class="pr dim">$1,420</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=7XNFP%20Dell%20Pro%2014%20U5%2016GB%20512GB%20Windows&i=electronics" target="_blank" title="Amazon MX">$1,064</a></td><td class="df"><span class="pill up">v +31.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Dell Pro 14" U7 16GB 512GB</td>
+          <td class="mpn">2HWN3</td>
+          <td class="pr">$1,620</td>
+          <td class="pr dim">$1,669</td>
+          <td class="pr dim">$1,660</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=2HWN3%20Dell%20Pro%2014%20U7%2016GB%20512GB%20Windows&i=electronics" target="_blank" title="Amazon MX">$1,535</a></td><td class="df"><span class="pill up">v +5.5%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">Monitores</td></tr>
+<tr>
+          <td class="pn">Dell P2425H 24" USB-C</td>
+          <td class="mpn">P2425H</td>
+          <td class="pr">$280</td>
+          <td class="pr dim">$300</td>
+          <td class="pr dim">$300</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=P2425H%20Dell%20P2425H%20monitor%2024%20pulgadas&i=electronics" target="_blank" title="Amazon MX">$838</a></td><td class="df"><span class="pill down">^ -66.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Samsung Essential S3 27"</td>
+          <td class="mpn">LS27D300GANXZA</td>
+          <td class="pr">$320</td>
+          <td class="pr dim">$340</td>
+          <td class="pr dim">$340</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=LS27D300GANXZA%20Samsung%20S3%20monitor%2027%20pulgadas&i=electronics" target="_blank" title="Amazon MX">$242</a></td><td class="df"><span class="pill up">v +32.2%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Samsung Essential S3 24"</td>
+          <td class="mpn">LS24D300GANXZA</td>
+          <td class="pr">$280</td>
+          <td class="pr dim">$300</td>
+          <td class="pr dim">$300</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=LS24D300GANXZA%20Samsung%20S3%20monitor%2024%20pulgadas&i=electronics" target="_blank" title="Amazon MX">$208</a></td><td class="df"><span class="pill up">v +34.6%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr class="sec"><td colspan="9">Accesorios</td></tr>
+<tr>
+          <td class="pn">Apple Magic Mouse</td>
+          <td class="mpn">MXK53AM/A</td>
+          <td class="pr">$60</td>
+          <td class="pr dim">$60</td>
+          <td class="pr dim">$60</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MXK53AM/A%20Apple%20Magic%20Mouse%20MXK53&i=electronics" target="_blank" title="Amazon MX">$27</a></td><td class="df"><span class="pill up">v +122.2%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Apple Magic Keyboard</td>
+          <td class="mpn">MXCL3LA/A</td>
+          <td class="pr">$80</td>
+          <td class="pr dim">$82</td>
+          <td class="pr dim">$80</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MXCL3LA/A%20Apple%20Magic%20Keyboard%20MXCL3&i=electronics" target="_blank" title="Amazon MX">$339</a></td><td class="df"><span class="pill down">^ -76.4%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Logitech MK540 Combo</td>
+          <td class="mpn">920-008673</td>
+          <td class="pr">$60</td>
+          <td class="pr dim">$62</td>
+          <td class="pr dim">$60</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=920-008673%20Logitech%20MK540%20teclado%20mouse%20combo&i=electronics" target="_blank" title="Amazon MX">$13</a></td><td class="df"><span class="pill up">v +361.5%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Logitech MK270 Combo</td>
+          <td class="mpn">920-004432</td>
+          <td class="pr">$40</td>
+          <td class="pr dim">$41</td>
+          <td class="pr dim">$40</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=920-004432%20Logitech%20MK270%20combo%20teclado%20mouse&i=electronics" target="_blank" title="Amazon MX">$13</a></td><td class="df"><span class="pill up">v +207.7%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Logitech Brio Webcam</td>
+          <td class="mpn">960-001548</td>
+          <td class="pr">$120</td>
+          <td class="pr dim">$124</td>
+          <td class="pr dim">$120</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=960-001548%20Logitech%20Brio%20webcam%20camara%20web&i=electronics" target="_blank" title="Amazon MX">$58</a></td><td class="df"><span class="pill up">v +106.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">Jabra Evolve2 55</td>
+          <td class="mpn">25599-999-999</td>
+          <td class="pr">$300</td>
+          <td class="pr dim">$309</td>
+          <td class="pr dim">$300</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=25599-999-999%20Jabra%20Evolve2%2055%20headset%20audifonos&i=electronics" target="_blank" title="Amazon MX">$273</a></td><td class="df"><span class="pill up">v +9.9%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+<tr>
+          <td class="pn">AirPods 4</td>
+          <td class="mpn">MXP63AM/A</td>
+          <td class="pr">$180</td>
+          <td class="pr dim">$185</td>
+          <td class="pr dim">$180</td>
+          <td class="bc"><a href="https://www.amazon.com.mx/s?k=MXP63AM/A%20Apple%20AirPods%204%20generacion&i=electronics" target="_blank" title="Amazon MX">$127</a></td><td class="df"><span class="pill up">v +41.7%</span></td>
+          <td class="bc">-</td><td class="df"><span class="pill empty">-</span></td>
+        </tr>
+</tbody>
+</table>
+<div class="fn">
+  TC del dia: <strong>$17.26 MXN/USD</strong> - Precios de retail convertidos de MXN a USD<br>
+  Benchmark 1 = mejor precio entre iShop Mixup, Apple Store MX, Amazon MX y Mercado Libre MX<br>
+  Benchmark 2 = segundo mejor precio de fuente diferente - Haz click en el precio para ver el producto en el retailer<br>
+  v = nuestro Platinum esta por debajo del retail (somos mas baratos) | ^ = nuestro precio esta por encima<br>
+  Ultima actualizacion: 06/05/2026 21:21
+</div></div></body></html>
